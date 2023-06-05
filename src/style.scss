@@ -1,0 +1,60 @@
+button{
+    cursor: pointer;
+}
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+
+    .Nav {
+        width: 100vw;
+
+        .div1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 70vw;
+
+        }
+    }
+
+    .Bottom {
+        width: 100%;
+
+        .Bnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 78%;
+
+            .div1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+
+        }
+
+        .Card{
+            .cardDiv{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+
+                div{
+                    display: flex;
+                }
+            }
+            .firstCol{
+                width: 300px;
+            }
+        }
+
+        
+    }
+}
